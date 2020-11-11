@@ -1,0 +1,420 @@
+*
+/*NAVBAR*/  
+
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.menu-bar 
+{
+    background-color: lawngreen;
+    text-align: end;
+    padding: 30px;
+    font-size: 20px;
+    
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.menu-bar ul li
+{
+    width: fit-content;
+    margin: 15px;
+    padding: 15px;
+    background: blue;
+    
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .menu-bar ul li:hover
+  {
+      background-color: slategray;
+      border-radius: 3;
+  }
+  .menu-bar .fa 
+  {
+      margin-right: 8px;
+  }
+  .sub-menu-1
+  {
+      display: none;
+  }
+  .menu-bar ul li:hover .sub-menu-1
+  {
+      display: block;
+      position: absolute;
+      background: turquoise;
+      margin-top: 15px;
+      margin-left: -15px;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul
+  {
+      display: block;
+      margin: 10px;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li
+  {
+      width: fit-content
+      padding: 10px;
+      border-bottom: 1fr dotted white;
+      background: black;
+      border-radius: 0;
+      text-align: left;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li a:hover 
+  {
+      color: steelblue;
+  }
+
+  
+ 
+
+
+
+
+
+/*SERVICES PAGE*/
+
+  .header
+  {
+    background-color: lawngreen;
+    text-align: center;  
+    padding: 5px;
+    color: #fff;
+    margin: 80px;
+    max-width: 600px;
+    font-size: 30px;
+    margin-left: 300px;
+  } 
+  .all-content p
+  {
+     padding: 15px;
+     color: white; 
+     background: blue;
+  }
+  
+  .all-header h1
+  {
+      color: lawngreen;
+      font-size: 40px;
+      margin-top: 100px;
+      font-style: oblique;
+      margin-left: 50px;
+      margin-right: 50px;
+      
+}
+.service-us 
+{
+    background-image: url("./BAK.jp");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    height: 800px;
+    position: relative;
+    width: 1500px;
+    margin-left: -512;
+}
+
+
+  .service-menu h1
+  {
+    text-align: left;
+    margin: 20px;
+    padding: 40px;
+    color: lawngreen;
+  }
+.serv-list {
+    color: blue;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 0px;
+    
+}
+
+
+
+  
+
+
+body {
+background: blac
+color: gray;
+font-family: Helvetica;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: maroon
+}
+#CA_Logistics Logo {
+    width: fit-content;
+
+}
+/* HOME  */
+
+#banner  {
+    background-image: url("./BAK.jpg");
+    background-image: url(https://picsum.photos/seed/picsum/1000/600);
+    padding: 150px 50;
+    text-align: center;
+    color: whitesmoke;
+    padding: 150px;
+}
+
+#banner h1 {
+    color: white;
+    text-align: center;
+    border-bottom: 2px dotted #fff;
+
+    
+}
+#banner p {
+    color: lawngreen;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 50px;
+    
+}
+
+/*VISION PAGE*/
+ .vision {
+    background-image: url("./IMG-.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    height: 800px;
+    position: relative;
+    max-width: 1024;
+    margin-left: -512;
+    margin-top: 50px;
+}
+.vision p {
+    color: lawngreen;
+    margin: 50px;
+}
+
+
+
+/**ABOUT PAGE*/
+.about-us h1 {
+    color: blue;
+    font-family: monospace;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.ABT{
+    color: blue;
+    text-align: center;
+}
+    
+
+.about-us h2 {
+    color:lawngreen;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    
+}
+.about-us h3 {
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.p-list  {
+    font-size: 20px;
+    margin-left: 50px;
+    color: lawngreen;
+}
+ 
+
+.about-us p {
+    color: white;
+    text-align: justify;
+    padding: 10pt;
+    margin: 20px;
+    line-height: 25px;
+    
+}
+    
+
+
+
+/*MISSION PAGE*/
+.mission
+{
+    background-image: url("./IMG-.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    height: 800px;
+    position: relative;
+    width: 1500px;
+    margin-left: -512;
+    margin-top: 50px;
+
+}
+.mission p
+{
+color: lawngreen;
+margin: 50px;
+
+}
+
+
+
+
+
+
+
+
+/*CONTACT PAGE*/
+.contact {
+    background-image: url("./Shopify.jp");
+    background-size: cover;
+    -moz-background-size: cover;
+    position: relative;
+    
+    }
+
+
+.contact h1
+{
+    color: lawngreen;
+    margin-top: 80px;
+    font-size: 45px;
+}
+.contact p{
+    color: white;
+    text-align: center;
+    border-bottom: 2px dotted #fff;
+
+}
+
+.contact h2 {
+    color: lawngreen;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.contact-form
+ {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 18x;
+    margin-bottom: 18px;
+    margin-left: 15px;
+}
+
+input
+{
+    height: 45px;
+}
+
+.contact-form .submit 
+{
+    background: blue;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold; 
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.contact-form :hover
+{
+    cursor: pointer;
+}
+
+
+.contact-me {
+    margin-top: 50px;
+    float: right;
+    font-family: monospace;
+    font-size: 22px;
+    margin-right: 10px;
+    transition: 0.5s ease-in-out;
+}
+.contact-me p {
+    color: white;
+}
+
+nav {
+    background-color: lawngreen;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+ .list  li {
+    display:  inline-block;
+    background-color: slategray;
+    padding: 12px 16px;
+    color: white;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    font-size: 35px;
+    
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    
+}
+.list li:hover {
+    background-color: darkgray;
+}
+
+
+
+
+
+
+
+
+
+
